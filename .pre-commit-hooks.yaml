@@ -1,0 +1,8 @@
+- id: js-beautify
+  name: js-beautify
+  entry: js-beautify
+  language: node
+  files: \.js$
+  args: []
+  additional_dependencies: ['js-beautify@1.13.0']
+  minimum_pre_commit_version: 2.7.1
